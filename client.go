@@ -1,4 +1,4 @@
-package client
+package go_playflow
 
 import "net/http"
 
