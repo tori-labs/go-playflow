@@ -7,3 +7,12 @@ type HTTPValidationError struct {
 		Type string `json:"type"`
 	} `json:"detail"`
 }
+
+type ServerList struct {
+	TotalServers int `json:"total_servers"`
+	Servers      []struct {
+	}
+}
+
+type ServerTags struct {
+}
